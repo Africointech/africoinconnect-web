@@ -1,0 +1,433 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Elvis Crypto</title>
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="../assets/images/favicon.ico" />
+      <link rel="stylesheet" href="../assets/css/libs.min.css">
+      <link rel="stylesheet" href="../assets/css/coinex.css?v=1.0.0">  </head>
+  <body class=" ">
+    <!-- loader Start -->
+    <div id="loading">
+      <div class="loader simple-loader">
+          <div class="loader-body"></div>
+      </div>    
+   </div>
+    <!-- loader END -->
+    <aside class="sidebar sidebar-default navs-rounded ">
+        <div class="sidebar-header d-flex align-items-center justify-content-start">
+            <a href="../dashboard/index.html" class="navbar-brand dis-none align-items-center justify-content-center">
+                <svg width="36" class="text-primary" viewBox="0 0 128 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path d="M117.348 105.33C117.594 105.476 117.669 105.799 117.508 106.036C110.26 116.759 99.5876 125.042 87.0232 129.687C74.2883 134.395 60.2849 135.117 47.0817 131.745C33.8785 128.372 22.1759 121.086 13.7027 110.961C5.22957 100.836 0.43531 88.4101 0.0282348 75.5189C-0.37884 62.6276 3.62286 49.9548 11.4421 39.3726C19.2614 28.7905 30.4835 20.8602 43.4505 16.7536C56.4176 12.6469 70.4417 12.5815 83.4512 16.5672C96.2865 20.4995 107.462 28.1693 115.375 38.4663C115.55 38.6939 115.495 39.0214 115.256 39.1813L97.3742 51.176C97.1539 51.3238 96.8567 51.2735 96.6942 51.0637C91.6372 44.53 84.5205 39.6627 76.3537 37.1606C68.031 34.6109 59.0591 34.6527 50.7636 37.2799C42.468 39.9071 35.2888 44.9804 30.2865 51.7502C25.2842 58.5201 22.7241 66.6274 22.9846 74.8745C23.245 83.1215 26.3121 91.0709 31.7327 97.5482C37.1533 104.025 44.64 108.687 53.0866 110.844C61.5332 113.002 70.4918 112.54 78.6389 109.528C86.6324 106.573 93.4288 101.316 98.0645 94.5111C98.2142 94.2913 98.5086 94.2233 98.7376 94.3583L117.348 105.33Z" fill="#FF971D"></path>
+                        <path d="M53.2837 0.5C53.2837 0.223858 53.5075 0 53.7837 0H75.6195C75.8957 0 76.1195 0.223858 76.1195 0.5V26.25H53.2837V0.5Z" fill="#FF971D"></path>
+                        <path d="M53.2837 123.75H76.1195V149.5C76.1195 149.776 75.8957 150 75.6195 150H53.7837C53.5075 150 53.2837 149.776 53.2837 149.5V123.75Z" fill="#FF971D"></path>
+                    </g>
+                </svg>            <h4 class="logo-title m-0">Elvis Crypto</h4>
+            </a>
+            <div class="sidebar-toggle" data-toggle="sidebar" data-active="true">
+                <i class="icon">
+                    <svg width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.25 12.2744L19.25 12.2744" stroke="currentColor" stroke-width="1.5"></path>
+                        <path d="M10.2998 18.2988L4.2498 12.2748L10.2998 6.24976" stroke="currentColor" stroke-width="1.5"></path>
+                    </svg>
+                </i>
+            </div>
+        </div>
+        <div class="sidebar-body p-0 data-scrollbar">
+            <div class="collapse navbar-collapse pe-3" id="sidebar">
+                <ul class="navbar-nav iq-main-menu">
+                    <li class="nav-item ">
+                     <a class="nav-link" aria-current="page" href="../dashboard/index.html">
+                         <i class="icon">
+                           <svg width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.8325 8.17463L10.109 13.9592L3.59944 9.88767C2.66675 9.30414 2.86077 7.88744 3.91572 7.57893L19.3712 3.05277C20.3373 2.76963 21.2326 3.67283 20.9456 4.642L16.3731 20.0868C16.0598 21.1432 14.6512 21.332 14.0732 20.3953L10.106 13.9602" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>                                                      
+                         </i>
+                         <span class="item-name">Arbitrage</span>
+                     </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="../dashboard/subscription.html">
+                            <i class="icon">
+                                <svg width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.87651 15.2063C6.03251 15.2063 2.74951 15.7873 2.74951 18.1153C2.74951 20.4433 6.01251 21.0453 9.87651 21.0453C13.7215 21.0453 17.0035 20.4633 17.0035 18.1363C17.0035 15.8093 13.7415 15.2063 9.87651 15.2063Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M9.8766 11.886C12.3996 11.886 14.4446 9.841 14.4446 7.318C14.4446 4.795 12.3996 2.75 9.8766 2.75C7.3546 2.75 5.3096 4.795 5.3096 7.318C5.3006 9.832 7.3306 11.877 9.8456 11.886H9.8766Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>                                    <path d="M19.2036 8.66919V12.6792" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>                                    <path d="M21.2497 10.6741H17.1597" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>                                                     
+                            </i>
+                            <span class="item-name">Subscription plan</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                     <a class="nav-link" data-bs-toggle="collapse" href="#future" role="button" aria-expanded="false" aria-controls="sidebar-user">
+                         <i class="icon">
+                           <svg width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.24512 14.7815L10.2383 10.8914L13.6524 13.5733L16.5815 9.79297" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="19.9954" cy="4.20027" r="1.9222" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle><path d="M14.9248 3.12012H7.65704C4.6456 3.12012 2.77832 5.25284 2.77832 8.26428V16.3467C2.77832 19.3581 4.60898 21.4817 7.65704 21.4817H16.2612C19.2726 21.4817 21.1399 19.3581 21.1399 16.3467V9.30776" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>                                                       
+                         </i>
+                         <span class="item-name">Futures</span>
+                         <i class="right-icon">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                             </svg>
+                         </i>
+                     </a>
+                     <ul class="sub-nav collapse" id="future" data-bs-parent="#sidebar">
+                         <li class="nav-item">
+                             <a class="nav-link " href="../dashboard/future_post.html">
+                                 <i class="icon">
+                                 <svg width="10" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <rect x="0.5" y="1" width="11" height="11" stroke="currentcolor"/>
+                                 </svg>                           
+                                 </i>
+                                 <i class="sidenav-mini-icon"> U </i>
+                                 <span class="item-name">Posts</span>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link " href="../dashboard/future_signals.html">
+                                 <i class="icon">
+                                     <svg width="10" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <rect x="0.5" y="1" width="11" height="11" stroke="currentcolor"/>
+                                     </svg> 
+                                 </i>
+                                 <i class="sidenav-mini-icon"> U </i>
+                                 <span class="item-name">Signals</span>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link " href="../dashboard/future_results.html">
+                                 <i class="icon">
+                                     <svg width="10" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <rect x="0.5" y="1" width="11" height="11" stroke="currentcolor"/>
+                                     </svg> 
+                                 </i>
+                                 <i class="sidenav-mini-icon"> U </i>
+                                 <span class="item-name">Results</span>
+                             </a>
+                         </li>
+                     </ul>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" data-bs-toggle="collapse" href="#spot" role="button" aria-expanded="false" aria-controls="sidebar-user">
+                         <i class="icon">
+                           <svg width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M21.25 12C21.25 6.892 17.109 2.75 12 2.75C6.892 2.75 2.75 6.892 2.75 12C2.75 17.108 6.892 21.25 12 21.25C17.109 21.25 21.25 17.108 21.25 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15.4712 13.4424L12.0002 9.95638L8.52919 13.4424" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>                                                      
+                         </i>
+                         <span class="item-name">Spot</span>
+                         <i class="right-icon">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                             </svg>
+                         </i>
+                     </a>
+                     <ul class="sub-nav collapse" id="spot" data-bs-parent="#sidebar">
+                         <li class="nav-item">
+                             <a class="nav-link " href="../dashboard/spot_post.html">
+                                 <i class="icon">
+                                 <svg width="10" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <rect x="0.5" y="1" width="11" height="11" stroke="currentcolor"/>
+                                 </svg>                           
+                                 </i>
+                                 <i class="sidenav-mini-icon"> U </i>
+                                 <span class="item-name">Posts</span>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link " href="../dashboard/spot_signals.html">
+                                 <i class="icon">
+                                     <svg width="10" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <rect x="0.5" y="1" width="11" height="11" stroke="currentcolor"/>
+                                     </svg> 
+                                 </i>
+                                 <i class="sidenav-mini-icon"> U </i>
+                                 <span class="item-name">Signals</span>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link " href="../dashboard/app/user-list.html">
+                                 <i class="icon">
+                                     <svg width="10" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <rect x="0.5" y="1" width="11" height="11" stroke="currentcolor"/>
+                                     </svg> 
+                                 </i>
+                                 <i class="sidenav-mini-icon"> U </i>
+                                 <span class="item-name">Results</span>
+                             </a>
+                         </li>
+                     </ul>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" data-bs-toggle="collapse" href="#investing" role="button" aria-expanded="false" aria-controls="sidebar-user">
+                         <i class="icon">
+                           <svg width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.6389 14.3957H17.5906C16.1042 14.3948 14.8993 13.1909 14.8984 11.7045C14.8984 10.218 16.1042 9.01409 17.5906 9.01318H21.6389" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M18.049 11.6429H17.7373" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M7.74766 3H16.3911C19.2892 3 21.6388 5.34951 21.6388 8.24766V15.4247C21.6388 18.3229 19.2892 20.6724 16.3911 20.6724H7.74766C4.84951 20.6724 2.5 18.3229 2.5 15.4247V8.24766C2.5 5.34951 4.84951 3 7.74766 3Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>                                    <path d="M7.03516 7.5382H12.4341" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>                                                       
+                         </i>
+                         <span class="item-name">Investing</span>
+                         <i class="right-icon">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                             </svg>
+                         </i>
+                     </a>
+                     <ul class="sub-nav collapse" id="investing" data-bs-parent="#sidebar">
+                         <li class="nav-item">
+                             <a class="nav-link " href="../dashboard/invest_post.html">
+                                 <i class="icon">
+                                 <svg width="10" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <rect x="0.5" y="1" width="11" height="11" stroke="currentcolor"/>
+                                 </svg>                           
+                                 </i>
+                                 <i class="sidenav-mini-icon"> U </i>
+                                 <span class="item-name">Posts</span>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link " href="../dashboard/invest_signals.html">
+                                 <i class="icon">
+                                     <svg width="10" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <rect x="0.5" y="1" width="11" height="11" stroke="currentcolor"/>
+                                     </svg> 
+                                 </i>
+                                 <i class="sidenav-mini-icon"> U </i>
+                                 <span class="item-name">Signals</span>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link " href="../dashboard/invest_results.html">
+                                 <i class="icon">
+                                     <svg width="10" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <rect x="0.5" y="1" width="11" height="11" stroke="currentcolor"/>
+                                     </svg> 
+                                 </i>
+                                 <i class="sidenav-mini-icon"> U </i>
+                                 <span class="item-name">Results</span>
+                             </a>
+                         </li>
+                     </ul>
+                   </li>
+                </ul>        
+               </div>   
+        </div>
+    </aside>    
+    <main class="main-content">
+      <div class="position-relative">
+        <!--Nav Start-->
+        <nav class="nav navbar navbar-expand-lg navbar-light iq-navbar border-bottom">
+          <div class="container-fluid navbar-inner">
+            <a href="../dashboard/index.html" class="navbar-brand">
+            </a>
+            <div class="sidebar-toggle" data-toggle="sidebar" data-active="true">
+                <i class="icon">
+                 <svg width="20px" height="20px" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
+                </svg>
+                </i>
+            </div>
+              <h4 class="title">
+                Subscription plan
+              </h4>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                  <span class="navbar-toggler-bar bar1 mt-2"></span>
+                  <span class="navbar-toggler-bar bar2"></span>
+                  <span class="navbar-toggler-bar bar3"></span>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto navbar-list mb-2 mb-lg-0 align-items-center">
+                <li class="nav-item dropdown">
+                  <a class="nav-link py-0 d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="../assets/images/avatars/01.png" alt="User-Profile" class="img-fluid avatar avatar-50 avatar-rounded">
+                    <div class="caption ms-3 ">
+                        <p class="mb-0 caption-sub-title">Welcome,</p>
+                        <h6 id="profilename" class="mb-0 caption-title"></h6>
+                        <!-- <p class="mb-0 caption-sub-title">Super Admin</p> -->
+                    </div>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <!-- <li class="border-0"><a class="dropdown-item" href="../dashboard/app/user-profile.html">Profile</a></li>
+                    <li class="border-0"><a class="dropdown-item" href="../dashboard/app/user-privacy-setting.html">Privacy Setting</a></li> -->
+                    <!-- <li class="border-0"><hr class="m-0 dropdown-divider"></li> -->
+                    <li class="border-0"><a class="dropdown-item" href="#"  onclick="logout()">Logout</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>        <!--Nav End-->
+      </div>
+      <div class="container-fluid content-inner pb-0">
+<div class="row">
+   <div class="col-lg-12">
+      <div class="row">
+         <div class="col-lg-12">
+            <div class="card card-block card-stretch custom-scroll">
+               <div class="card-header d-flex flex-wrap justify-content-between align-items-center">
+               </div>
+               <div class="card-body">
+                  <div class="table-responsive">
+                     <table id="tbl" class="table data-table mb-0">
+                        <thead>
+                           <tr>
+                              <th scope="col">Plan</th>
+                              <th scope="col">Duration</th>
+                              <th scope="col">Price</th>
+                              <th scope="col">Created at</th>
+                              <th scope="col">Status</th>
+                              <th scope="col">Action</th>
+                           </tr>
+                        </thead>
+                           <tbody>
+                              
+                           </tbody>
+                     </table>
+                     <div class="col-md-7 col-sm-6" id="wait" style="position: absolute;right: 0px;display: none;">
+                        <img src="../assets/images/pages/load_wait.gif" width="130" height="90" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- <div class="row">
+      <div class="col-lg-12">
+      <div id="load_data_message"></div>
+       </div>
+      </div> -->
+   </div>
+</div>
+
+      </div>
+      <footer class="footer">
+          <div class="footer-body">
+              <div class="right-panel">
+                  
+                  Elvis Crypto © <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.
+              </div>
+          </div>
+      </footer>    </main>
+     
+    <!-- Wrapper End-->
+    <!-- offcanvas start -->
+
+    <!-- Backend Bundle JavaScript -->
+    <script src="../assets/js/libs.min.js"></script>
+    <!-- widgetchart JavaScript -->
+    <script src="../assets/js/charts/widgetcharts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- fslightbox JavaScript -->
+    <script src="../assets/js/fslightbox.js"></script>
+    <!-- app JavaScript -->
+    <script src="../assets/js/app.js"></script>
+    <!-- apexchart JavaScript -->
+    <script src="../assets/js/charts/apexcharts.js"></script>
+    <script>
+
+function logout() {
+	sessionStorage.clear();
+	window.location.href = "../index.html";
+	
+} 
+var rep = JSON.parse(sessionStorage.getItem('response'));
+      if(rep != null){
+        $("#profilename").html(rep.name);
+      }else{
+        sessionStorage.setItem("connect", "Please sign in to access the page")
+        window.location.href = "../login.html"
+      }
+      //console.log(rep);
+      
+    function load_data()
+     {
+      $.ajax({
+  
+            type: "GET",
+            url:'http://192.168.88.115:8000/api/user/payment-intents/',
+            dataType:'json',
+            headers:{
+               "Authorization": rep.token,
+            },
+            beforeSend: function(){
+
+             $("#wait").css("display", "block");
+          
+            },
+            cache:false,
+            success: function(data){
+                //console.log(data);
+                // data = [...data, ...newData];
+                // const subp = []
+                // const subdays = []
+                // var isActive = false
+                // let lastElement = data[data.length - 1];
+                
+                //    if(data[data.length - 1].state.name == 'ACTIVATED'){
+                    
+                //        //subp.push(data[j].state.name)
+                //        const diff = new Date().getTime() - new Date(data[data.length - 1].createdAt).getTime()
+                //        const days = diff / (1000 * 3600 * 24)
+                //        if(data[data.length - 1].plan.duration < days){
+                //         isActive = false
+                //        }else{
+                //         isActive = true
+                //        }
+                //        //subdays.push(days)
+                //    }else{
+                //        isActive = false
+                //    }
+                // sessionStorage.setItem("isActive",isActive);
+                // console.log(sessionStorage.getItem("isActive"));
+                for(var i=0; i<data.length; i++){
+                    var row=$('<tr class="white-space-no-wrap"><td>' + data[i].plan.name+ '</td>'+
+                               '<td class="pe-2" style="";>' + data[i].plan.duration +' '+'days'+'</td>'+
+                               '<td class="pe-2" style="";>' + data[i].plan.price +' '+'$'+'</td>'+
+                               '<td class="pe-2" style="";>' + new Date(data[i].createdAt).toDateString() +'</td>'+
+                               `${
+                                data[i].state.name == "PENDING" ?'<td class="pe-2" style="color:red;">' + data[i].state.name + '</td>' : '<td class="pe-2" style="color:green;">' + data[i].state.name + '</td>'
+                               }`+
+                               '<td class="pe-2" style="";>'+ 
+                                `${
+                                    data[i].state.name == "PENDING" ?  '<button class="btn btn-warning" onclick="cancel('+ data[i].id +')" type="button">'+
+                                '<span>'+'Cancel'+'</span>'+
+                                '</button>' : '<p>No Action</p>'
+                                }`+
+                                '</td>'+
+                             '</tr>');
+                   $("#wait").css("display", "none");
+                    $('#tbl').append(row);
+                    
+                }
+                
+            },      
+            error: function(jqXHR, textStatus, errorThrown){
+                console.log('Error:'+textStatus+'-'+errorThrown);
+            }
+        });
+      }
+
+      $(document).ready(function(){
+         load_data()
+      });
+    function cancel(i){
+        var answer = window.confirm("Do you want to cancel this subscription plan?");
+        const rs = JSON.parse(sessionStorage.getItem("response"));
+        if(answer){
+            jQuery.ajax({
+            type: "DELETE",
+            url:'http://192.168.88.115:8000/api/user/payment-intent/'+i+'/',
+			//data: JSON.stringify({plan: i}),
+			headers: {
+                "Authorization": rs.token,
+            },
+            success: function(data){
+			  //load_data()
+              window.location.href = "subscription.html"
+			},
+				
+            error: function(xhr, status, text) {
+			   //load_data()
+               window.location.href = "subscription.html"
+            }  
+            });
+        }else{
+            
+        }
+    }
+    </script>
+  </body>
+</html>
